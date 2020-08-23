@@ -25,6 +25,8 @@
     <script>
         var map;
 
+        WorldWind.configuration.baseUrl = './';
+
         window.onload = function () {
             map = new WorldWind.WorldWindow("canvas");
             map.addLayer(new WorldWind.BMNGLayer());
