@@ -4,9 +4,18 @@ Rewrite WebWorldWind with es6 and rollup.
 
 ![image](images/screenshot.png)
 
+Demo: https://tengge1.github.io/WebWorldWind-rollup/
+
 ## Source Code
 
 Original Source: https://github.com/NASAWorldWind/WebWorldWind
+
+## Build
+
+```bash
+npm install
+npm run build
+```
 
 ## License
 
